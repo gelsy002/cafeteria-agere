@@ -1,0 +1,79 @@
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.firt-img {
+    position: relative;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background: $white;
+    width: auto;
+    padding: 20px;
+    bottom: 102px;
+    right: 450px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-number {
+    font-family: $mono;
+    font-weight: $regular;
+    font-size: $x-large;
+}
+
+.info-text {
+    width: 135px;
+    font-family: $roboto;
+    font-size: medium;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.section-title {
+    font-size: $xxx-large;
+}
+
+.section-subtitle {
+    font-family: $roboto;
+} 
+
+.square-yellow {
+    background-color: $coral;
+    position: relative;
+    width: 116px;
+    height: 116px;
+}
+
+.square-orange {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    bottom: 115px;
+    right: 367px;
+    background-color: $flame;
+    color: $white;
+    font-size: $xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

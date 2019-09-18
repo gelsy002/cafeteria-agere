@@ -1,0 +1,14 @@
+a {
+    color: $spanish-gray;
+    font-size: $medium;
+    font-family: $mono;
+    font-weight: $regular;
+
+    &:hover {
+        color: $black;
+    }
+}
+
+.acerca-de {
+    margin-right: 30px;
+}

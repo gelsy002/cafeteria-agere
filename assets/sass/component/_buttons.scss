@@ -1,0 +1,31 @@
+.primary-button {
+    color: $spanish-gray;
+    font-family: $mono;
+    font-weight: $regular;
+    font-size: $medium;
+    background: none;
+    border: 1px solid $spanish-gray;
+    padding:  5px 15px;
+    margin-right: 10px;
+
+    &:hover {
+        color: $black;
+        border: 1px solid $black;
+    }
+}
+
+.secondary-button {
+    font-family: $mono;
+    font-weight: $regular;
+    font-size: $medium;
+    color: $white;
+    padding:  5px 15px;
+    border: 1px solid $shiny-shamrock;
+    background-color: $shiny-shamrock;
+
+    &:hover {
+        color: $black;
+        background-color: $pastel-gray;
+        border: 1px solid $pastel-gray;
+    }
+}

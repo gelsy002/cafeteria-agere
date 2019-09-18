@@ -1,0 +1,59 @@
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section2-text-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-text-title {
+    font-family: $mono;
+    font-weight: $regular;
+    font-size: $x-large;
+}
+
+.section2-text-subtitle {
+    font-size: $roboto;
+    font-size: $large;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.container-wrap {
+    width: 100%;
+}
+
+.square-blue {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: $blue-de-france;
+}
+
+.img-mapa {
+    position: absolute;
+    width: 29%;
+    bottom: -125px;
+    left: 411px;
+}
+
+.img-coffe {
+    width: 100%;
+    height: 115%;
+    position: relative;
+    clear: both;
+}
+
+.img-coffe-grano {
+    position: absolute;
+    width: 11%;
+    height: 15%;
+    bottom: -23px;
+    right: 386px;
+    transform: rotate(90deg);
+}
